@@ -33,6 +33,7 @@ app.get('/', (req, res) => {
   `);
 });
 
-app.listen(port, () => {
+// Listen on all IP addresses (0.0.0.0)
+app.listen(port, '0.0.0.0', () => {
   console.log(`App running at http://localhost:${port}`);
 });
