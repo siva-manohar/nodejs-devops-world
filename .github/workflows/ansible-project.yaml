@@ -3,7 +3,7 @@ name: ansible multi-deployment
 on:
   push:
     branches:
-      - ansible-project
+      - main
 
 jobs:
   docker-build:
